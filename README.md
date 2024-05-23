@@ -21,7 +21,7 @@ TODO: Another header image here?
 - **Description of Data**: The dataset includes information on civil aviation accidents and incidents. TODO: Give Examples
 - **Three Visualizations**: TODO: Come up with the actual visualizations after doing the EDA
   1. **Accident Frequency by Aircraft Model**: Bar chart showing the number of accidents for each aircraft model.
-  2. **Causes of Accidents**: Pie chart illustrating the distribution of different causes of aviation accidents.
+  2. **Causes of Accidents**: Bar chart illustrating the distribution of different causes of aviation accidents.
   3. **Trend Over Time**: Line graph depicting the trend in aviation accidents over the years.
 
 ## Conclusions
