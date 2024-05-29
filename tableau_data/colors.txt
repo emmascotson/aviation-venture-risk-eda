@@ -1,0 +1,1 @@
+Let's have the chart background be the bright white "Text and background 2" color at the top, cause then I can put the charts on the dark blue background and they'll really pop. Then the darkest blue at the very top ("Text and background 1") for chart text color. Then for the line/bar colors either accent 1 and accent 5, or accent 5 and accent 6. You choose!
