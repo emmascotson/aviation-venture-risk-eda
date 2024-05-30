@@ -1,61 +1,86 @@
 ![aviation venture risk EDA](./images/aviation-venture-risk-eda-header.jpg)
-# Aviation Venture Risk EDA TODO: Working Title, come up with the official title later
 
-TODO: Filled in mock template, based on the canvas requirements.  Compare it to the MVP (minimum viable product) example template.
-**Author**: [Chisum Lindauer](mailto:chisum@atrixtech.com)
+# Avoiding the Crash: Navigating the Skies Safely
+
+**Author**: [Chisum Lindauer](mailto:chisum@atrixtech.com) and [Emma Scotson](mailto:)
 
 ## Overview
-ACME Co. is interested in purchasing and operating airplanes for commercial and private enterprises. This Exploratory Data Analysis (EDA) utilizes data from the National Transportation Safety Board to determine which aircraft have the lowest risk. The analysis contains actionable insights for the head of the new Aviation Division, Scott Fly.
- 
+Our company is interested in purchasing and operating airplanes for commercial and private enterprises. This Exploratory Data Analysis (EDA) utilizes data from the National Transportation Safety Board to answer 4 key questions on aircraft safety. The analysis contains actionable insights for the head of the new Aviation Division.
+
 ## Business Understanding
-TODO: Another header image here?
 - **Goal**: Recommend at least 3 actionable insights 
-- **Stakeholders**: Head of the new Aviation Division, Scott Fly.
-- **Key Business Questions**: TODO: Come up with the actual questions these are placeholders
-  1. Which aircraft models have the lowest incident rates?
-  2. What factors contribute most to aviation accidents?
-  3. How do different aircraft compare in terms of safety and reliability?
+- **Stakeholders**: Head of the new Aviation Division.
+- **Key Business Questions**:
+  1. Is commercial or private safer?
+  2. What are some of the most important features for aircraft safety?
+  3. Who makes the safest aircraft?
+  4. What is the safest model of aircraft?
 
 ## Data Understanding and Analysis
-- **Source of Data**: National Transportation Safety Board aviation accident data (1962-2023).
-- **Description of Data**: The dataset includes information on civil aviation accidents and incidents. TODO: Give Examples
-- **Three Visualizations**: TODO: Come up with the actual visualizations after doing the EDA
-  1. **Accident Frequency by Aircraft Model**: Bar chart showing the number of accidents for each aircraft model.
-  2. **Causes of Accidents**: Bar chart illustrating the distribution of different causes of aviation accidents.
-  3. **Trend Over Time**: Line graph depicting the trend in aviation accidents over the years.
+- **Source of Data**: National Transportation Safety Board aviation accident data (1982-2022).
+- **Description of Data**: The dataset includes information on aviation accidents and incidents, detailing aspects such as aircraft make and model, engine type, cause of the accident, severity of the accident, and more.
+
+### Visualizations
+1. **Accident Frequency by Aircraft Model**:
+   ![Accident Frequency by Aircraft Model](./images/purpose_of_flight_chart.png)
+   *Description*: This bar chart shows the number of accidents for each aircraft model, highlighting those with the highest and lowest frequencies.
+
+2. **Causes of Accidents**:
+   ![Causes of Accidents](./images/private_flights_engine_type_chart.png)
+   *Description*: This bar chart illustrates the distribution of different causes of aviation accidents, providing insights into the most common factors.
+
+3. **Trend Over Time**:
+   ![Trend Over Time](./images/normalized_boeing_vs_airbus_chart.png)
+   *Description*: This line graph depicts the trend in aviation accidents over the years, comparing the normalized number of accidents for Boeing and Airbus aircraft.
 
 ## Conclusions
-TODO: List actual conclusions
+This analysis leads to three key recommendations for improving operations at ACME Co.
 
-This analysis leads to three recommendations for improving operations of ACME Co.
-
-  1. **Finding 1**: [Detailed description of the first key finding, e.g., "Aircraft model X has the lowest incident rate among the studied models."]
-  2. **Finding 2**: [Detailed description of the second key finding, e.g., "Mechanical failure is the most common cause of accidents, accounting for 40% of all incidents."]
-  3. **Finding 3**: [Detailed description of the third key finding, e.g., "The number of accidents has been decreasing over the past decade, indicating improvements in aviation safety."]
+1. **Commercial flights are significantly safer than private flights**: Regulatory measures and standardized protocols contribute to this safety.
+2. **Aircraft with two or more engines are safer**: One-engine aircraft have a much higher accident rate.
+3. **Boeing and Airbus are the safest makes**: Both manufacturers show lower incident rates and high reliability.
 
 ## Next Steps
+To further refine our analysis and provide more comprehensive recommendations, we suggest the following next steps:
 
-Futher analysis could yield additional insights to further improve operations at ACME Co.
-
-- **Build Predictive Models** Building models to predict which aircraft will be the best in terms of safety in the future.
-- **Exploring Other Data Sources** Using more data sources can give us more informed decisions.
-- **Live Updates** Getting the system to live update on the latest data can give us an edge over the competition.
-- **Studying Others Solutions** Studying other companies and groups solutions for ideas on how to approach these challenges and how and if they can fit in for us.
+- **More Safety Analysis**: Utilize additional data sources to explore more features of aircraft and flight, such as weather conditions, build years, regulations, and locations, to gain better insights into safety.
+- **Market Analysis**: Identify profitable services and locations, and understand the growth and timing of different sectors to make informed decisions.
+- **Cost Analysis**: Investigate maintenance costs, regulatory costs, fees, taxes, and aircraft costs to determine the profitability of the venture.
+- **Analyze Company Strengths**: Leverage internal and external data to identify the company's strengths in the aviation industry.
+- **Expand Insights**: Delve into risk management, customer insights, competitive analysis, and compliance to ensure a thorough understanding of the market.
 
 ## For More Information
+See the full analysis in the [Jupyter Notebook](./aviation-venture-risk-eda.ipynb) or review this [presentation](./presentation.pdf).
 
-See the full analysis in the [Jupyter Notebook](./aviation-venture-risk-eda.ipynb) or review this [presentation](./Aviation_Venture_Risk_Presentation.pdf).
-
-For additional info, contact Chisum Lindauer at [chisum@atrixtech.com](mailto:chisum@atrixtech.com)
-
-TODO: Another logo?
+For additional info, contact Chisum Lindauer at [chisum@atrixtech.com](mailto:chisum@atrixtech.com).
 
 ## Repository Structure
-
 ```
 ├── data
+│ ├── AviationData.csv
+│ ├── USState_Codes.csv
 ├── images
+│ ├── aviation-venture-risk-eda-header.jpg
+│ ├── normalized_boeing_vs_airbus_chart.png
+│ ├── private_flights_engine_type_chart.png
+│ ├── purpose_of_flight_chart.png
+├── tableau_data
+│ ├── colors.txt
+│ ├── commercial_flights_total_accidents_vs_fatal_or_serious_accidents_by_engine_type.csv
+│ ├── Flatiron-Project1-Visualizations-final.twbx
+│ ├── graph-1.csv
+│ ├── images
+│ │ ├── aviation-venture-risk-eda-header.jpg
+│ │ ├── normalized_boeing_vs_airbus_chart.png
+│ │ ├── private_flights_engine_type_chart.png
+│ │ ├── purpose_of_flight_chart.png
+│ ├── normalized_total_number_of_accidents_over_time_for_boeing_and_airbus_aircraft.csv
+│ ├── private_flights_total_accidents_vs_fatal_or_serious_accidents_by_engine_type.csv
+│ ├── purpose_of_flight_accidents.csv
+│ ├── Screenshot_2024-05-28_at_5.11.33_PM.png
+│ ├── tableau-dashboard-url.txt
+│ ├── 'Tableau Dashboard URL.txt'
 ├── README.md
-├── Aviation_Venture_Risk_Presentation.pdf
+├── presentation.pdf
 └── aviation-venture-risk-eda.ipynb
 ```
