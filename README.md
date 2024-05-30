@@ -2,7 +2,7 @@
 
 # Avoiding the Crash: Navigating the Skies Safely
 
-**Author**: [Chisum Lindauer](mailto:chisum@atrixtech.com) and [Emma Scotson](mailto:)
+**Author**: [Chisum Lindauer](linkedin) and [Emma Scotson](linkedin)
 
 ## Overview
 Our company is interested in purchasing and operating airplanes for commercial and private enterprises. This Exploratory Data Analysis (EDA) utilizes data from the National Transportation Safety Board to answer 4 key questions on aircraft safety. The analysis contains actionable insights for the head of the new Aviation Division.
@@ -52,7 +52,7 @@ To further refine our analysis and provide more comprehensive recommendations, w
 ## For More Information
 See the full analysis in the [Jupyter Notebook](./aviation-venture-risk-eda.ipynb) or review this [presentation](./presentation.pdf).
 
-For additional info, contact Chisum Lindauer at [chisum@atrixtech.com](mailto:chisum@atrixtech.com).
+For additional info, contact [Chisum Lindauer](linkedin) or Emma Scotson(linkedin)
 
 ## Repository Structure
 ```
