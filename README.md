@@ -30,7 +30,7 @@ Our company is interested in purchasing and operating airplanes for commercial a
    *Description*: This bar chart illustrates reciprocating engines, usually used in private flight, is really risky.  It also shows turbo fan engines are safe.
 
 3. **Trend Over Time Boeing vs Airbus**:
-   ![Trend Over Time](./images/boeing_vs_airbus.png)
+   ![Trend Over Time](./images/boeing_vs_airbus_notransparent.png)
    *Description*: This compares Airbus ot Boeing for their safety trends normalized for accident volume by comparing the proportion of serious or fatal accidents to all accidents for each maker.
 
 ## Conclusions
