@@ -37,8 +37,9 @@ Our company is interested in purchasing and operating airplanes for commercial a
 This analysis leads to three key recommendations for improving operations at ACME Co.
 
 1. **Commercial flights are significantly safer than private flights**: Regulatory measures and standardized protocols contribute to this safety.
-2. **Aircraft with two or more engines are safer**: One-engine aircraft have a much higher accident rate.
+2. **Aircraft with two or more engines are safer**: One-engine aircraft have a much higher accident rate.  The turbofan is also one of the safest types of engine.
 3. **Boeing and Airbus are the safest makes**: Both manufacturers show lower incident rates and high reliability.
+4. **The safest models**: In our data and by our chosen metrics the Boeing-777 is the model of aircraft.
 
 ## Next Steps
 To further refine our analysis and provide more comprehensive recommendations, we suggest the following next steps:
@@ -51,6 +52,8 @@ To further refine our analysis and provide more comprehensive recommendations, w
 
 ## For More Information
 See the full analysis in the [Jupyter Notebook](./aviation-venture-risk-eda.ipynb) or review this [presentation](./presentation.pdf).
+
+You can also see an interactive dashboard of key charts [here](https://public.tableau.com/app/profile/chisum.lindauer/viz/Flatiron-Project1-Visualizations-final/Dashboard1?publish=yes(learn-env))
 
 For additional info, contact [Chisum Lindauer](linkedin) or Emma Scotson(linkedin)
 
