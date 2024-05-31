@@ -33,13 +33,36 @@ Our company is interested in purchasing and operating airplanes for commercial a
    ![Trend Over Time Boeing vs Airbush](./images/boeing_vs_airbus_notransparent.png)
    *Description*: This compares Airbus ot Boeing for their safety trends normalized for accident volume by comparing the proportion of serious or fatal accidents to all accidents for each maker.
 
-## Conclusions
-This analysis leads to three key recommendations for improving operations at ACME Co.
+# Final Conclusions
 
-1. **Commercial flights are significantly safer than private flights**: Regulatory measures and standardized protocols contribute to this safety.
-2. **Aircraft with two or more engines are safer**: One-engine aircraft have a much higher accident rate.  The turbofan is also one of the safest types of engine.
-3. **Boeing and Airbus are the safest makes**: Both manufacturers show lower incident rates and high reliability.
-4. **The safest models**: In our data and by our chosen metrics the Boeing-777 is the model of aircraft.
+We defined low-risk as the lowest risk to human life, using the relative fatal or serious to total number of accidents ratio for each feature. This allowed us to normalize and compare different features even if some had more data, such as private flights having far more accidents than commercial flights.
+
+Here are the results of our questions gained from business understanding:
+
+1. **Aircraft Category: Airplane**
+   The best low-risk option of aircraft for both private and commercial use is an airplane.
+
+2. **Private or Commercial: Commercial**
+   The best low-risk purpose of business for airplane usage is commercial flights.
+
+3. **Features: 2 Engines, Turbofan**
+   The best features to include in your airplane model to ensure a low risk of accidents are 2 or more engines, ideally of a turbofan type.
+
+4. **Make: Boeing (Airbus: Runner Up)**
+   The manufacturer to purchase aircraft from for the most risk-safe product is Boeing, with Airbus as a runner-up.
+
+5. **Make and Model: Boeing-777**
+   The model 777 from Boeing in this data set has the lowest proportion of serious and fatal accidents to total accidents, after filtering out planes that do not have enough data.
+
+6. **Time of Year**
+   Summer is more dangerous than Winter, interestingly enough!
+
+7. **Location and Airport Name**
+   There is a lack of data to give solid conclusions on this due to the variety of locations and airports. International data sometimes appears safer, like London, but this might be biased by the US-centric dataset. A better approach is needed for this analysis.
+
+8. **Safest Location by Code (US States and Region Codes) for Flights from 2000 Onward**
+   Alaska, North Dakota, and Maryland ended up being the safest by our metric, while the Atlantic Ocean was by far the most dangerous.
+
 
 ## Next Steps
 To further refine our analysis and provide more comprehensive recommendations, we suggest the following next steps:
@@ -55,6 +78,6 @@ See the full analysis in the [Jupyter Notebook](./aviation-venture-risk-eda.ipyn
 
 Our data is also available in the [data folder](./data/AviationData.csv).
 
-You can also see an interactive dashboard of key charts [here](https://public.tableau.com/app/profile/chisum.lindauer/viz/Flatiron-Project1-Visualizations-final/Dashboard1?publish=yes(learn-env))
+You can also see an interactive dashboard of key charts [here](https://public.tableau.com/app/profile/chisum.lindauer/viz/Flatiron-Project1-Visualizations-final/Dashboard1?publish=yes(learn-env)).
 
 For additional info, contact [Chisum Lindauer](chisum@atrixtech.com) or Emma Scotson(emmascotson112@gmail.com)
