@@ -80,4 +80,4 @@ Our data is also available in the [data folder](./data/AviationData.csv).
 
 You can also see an interactive dashboard of key charts [here](https://public.tableau.com/app/profile/chisum.lindauer/viz/Flatiron-Project1-Visualizations-final/Dashboard1?publish=yes(learn-env)).
 
-For additional info, contact [Chisum Lindauer](chisum@atrixtech.com) or Emma Scotson(emmascotson112@gmail.com)
+For additional info, contact [Chisum Lindauer](chisum@atrixtech.com) or [Emma Scotson](emmascotson112@gmail.com)
