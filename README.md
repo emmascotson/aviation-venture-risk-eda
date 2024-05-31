@@ -2,7 +2,7 @@
 
 # Avoiding the Crash: Navigating the Skies Safely
 
-**Author**: [Chisum Lindauer](linkedin) and [Emma Scotson](linkedin)
+**Authors**: [Chisum Lindauer](chisum@atrixtech.com) and [Emma Scotson](emmascotson112@gmail.com)
 
 ## Overview
 Our company is interested in purchasing and operating airplanes for commercial and private enterprises. This Exploratory Data Analysis (EDA) utilizes data from the National Transportation Safety Board to answer 4 key questions on aircraft safety. The analysis contains actionable insights for the head of the new Aviation Division.
@@ -21,17 +21,17 @@ Our company is interested in purchasing and operating airplanes for commercial a
 - **Description of Data**: The dataset includes information on aviation accidents and incidents, detailing aspects such as aircraft make and model, engine type, cause of the accident, severity of the accident, and more.
 
 ### Visualizations
-1. **Accident Frequency by Aircraft Model**:
-   ![Accident Frequency by Aircraft Model](./images/purpose_of_flight_chart.png)
-   *Description*: This bar chart shows the number of accidents for each aircraft model, highlighting those with the highest and lowest frequencies.
+1. **Accident Frequency by Purpose of Flight**:
+   ![Accident Frequency by Purpose of Flight](./images/purpose_of_flight_chart.png)
+   *Description*: This bar chart shows the number of accidents for each purpose of flight.
 
-2. **Causes of Accidents**:
-   ![Causes of Accidents](./images/private_flights_engine_type_chart.png)
-   *Description*: This bar chart illustrates the distribution of different causes of aviation accidents, providing insights into the most common factors.
+2. **Engine Types**:
+   ![Engine Types](./images/private_flights_engine_type_chart.png)
+   *Description*: This bar chart illustrates reciprocating engines, usually used in private flight, is really risky.  It also shows turbo fan engines are safe.
 
-3. **Trend Over Time**:
-   ![Trend Over Time](./images/normalized_boeing_vs_airbus_chart.png)
-   *Description*: This line graph depicts the trend in aviation accidents over the years, comparing the normalized number of accidents for Boeing and Airbus aircraft.
+3. **Trend Over Time Boeing vs Airbus**:
+   ![Trend Over Time](./images/boeing_vs_airbus.png)
+   *Description*: This compares Airbus ot Boeing for their safety trends normalized for accident volume by comparing the proportion of serious or fatal accidents to all accidents for each maker.
 
 ## Conclusions
 This analysis leads to three key recommendations for improving operations at ACME Co.
@@ -53,37 +53,8 @@ To further refine our analysis and provide more comprehensive recommendations, w
 ## For More Information
 See the full analysis in the [Jupyter Notebook](./aviation-venture-risk-eda.ipynb) or review this [presentation](./presentation.pdf).
 
+Our data is also available in the [data folder](./data/AviationData.csv).
+
 You can also see an interactive dashboard of key charts [here](https://public.tableau.com/app/profile/chisum.lindauer/viz/Flatiron-Project1-Visualizations-final/Dashboard1?publish=yes(learn-env))
 
-For additional info, contact [Chisum Lindauer](linkedin) or Emma Scotson(linkedin)
-
-## Repository Structure
-```
-├── data
-│ ├── AviationData.csv
-│ ├── USState_Codes.csv
-├── images
-│ ├── aviation-venture-risk-eda-header.jpg
-│ ├── normalized_boeing_vs_airbus_chart.png
-│ ├── private_flights_engine_type_chart.png
-│ ├── purpose_of_flight_chart.png
-├── tableau_data
-│ ├── colors.txt
-│ ├── commercial_flights_total_accidents_vs_fatal_or_serious_accidents_by_engine_type.csv
-│ ├── Flatiron-Project1-Visualizations-final.twbx
-│ ├── graph-1.csv
-│ ├── images
-│ │ ├── aviation-venture-risk-eda-header.jpg
-│ │ ├── normalized_boeing_vs_airbus_chart.png
-│ │ ├── private_flights_engine_type_chart.png
-│ │ ├── purpose_of_flight_chart.png
-│ ├── normalized_total_number_of_accidents_over_time_for_boeing_and_airbus_aircraft.csv
-│ ├── private_flights_total_accidents_vs_fatal_or_serious_accidents_by_engine_type.csv
-│ ├── purpose_of_flight_accidents.csv
-│ ├── Screenshot_2024-05-28_at_5.11.33_PM.png
-│ ├── tableau-dashboard-url.txt
-│ ├── 'Tableau Dashboard URL.txt'
-├── README.md
-├── presentation.pdf
-└── aviation-venture-risk-eda.ipynb
-```
+For additional info, contact [Chisum Lindauer](chisum@atrixtech.com) or Emma Scotson(emmascotson112@gmail.com)
