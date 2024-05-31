@@ -21,16 +21,13 @@ Our company is interested in purchasing and operating airplanes for commercial a
 - **Description of Data**: The dataset includes information on aviation accidents and incidents, detailing aspects such as aircraft make and model, engine type, cause of the accident, severity of the accident, and more.
 
 ### Visualizations
-1. **Accident Frequency by Purpose of Flight**:
-   ![Accident Frequency by Purpose of Flight](./images/purpose_of_flight_chart.png)
+1.  ![Accident Frequency by Purpose of Flight](./images/purpose_of_flight_chart.png)
    *Description*: This bar chart shows the number of accidents for each purpose of flight.
 
-2. **Engine Types**:
-   ![Engine Types](./images/private_flights_engine_type_chart.png)
+2.  ![Engine Types](./images/private_flights_engine_type_chart.png)
    *Description*: This bar chart illustrates reciprocating engines, usually used in private flight, is really risky.  It also shows turbo fan engines are safe.
 
-3. **Trend Over Time Boeing vs Airbus**:
-   ![Trend Over Time](./images/boeing_vs_airbus_notransparent.png)
+3. ![Trend Over Time Boeing vs Airbush](./images/boeing_vs_airbus_notransparent.png)
    *Description*: This compares Airbus ot Boeing for their safety trends normalized for accident volume by comparing the proportion of serious or fatal accidents to all accidents for each maker.
 
 ## Conclusions
